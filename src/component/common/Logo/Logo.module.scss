@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
+  &__title {
+    font-weight: 700;
+    a {
+      color: black;
+    }
+    span {
+      font-weight: 800;
+    }
+  }
+}
