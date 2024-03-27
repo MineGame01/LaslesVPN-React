@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-const HeaderComponentSlice = createSlice({
-    name: 'HeaderComponent',
+const HeaderSlice = createSlice({
+    name: 'Header',
     initialState: {
         ListData: [
             {id: 1, to: '/', name: 'About'},
@@ -11,10 +11,6 @@ const HeaderComponentSlice = createSlice({
             {id: 5, to: '/', name: 'Help'},
         ]
     },
-    reducers: {
-
-    },
+    reducers: {},
 })
-
-export const { addList } = HeaderComponentSlice.actions
-export default HeaderComponentSlice.reducer
+export default HeaderSlice.reducer

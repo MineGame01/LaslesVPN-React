@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from "react-redux";
 import Services from "./Services/Services";
-import {getServicesAll} from "../../redux/selectors/Selectors";
+import {getServicesAllSelector} from "../../redux/selectors/Selectors";
 
 class ServicesContainer extends React.Component {
     render() {
@@ -11,7 +11,7 @@ class ServicesContainer extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    servicesData: getServicesAll(state),
+    servicesData: getServicesAllSelector(state),
 })
 
 export default connect(mapStateToProps, {})(ServicesContainer)

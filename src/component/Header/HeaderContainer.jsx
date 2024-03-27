@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from "react-redux";
 import Header from "./Header/Header";
+import {getHeaderListDataSelector} from "../../redux/selectors/Selectors";
 
 class HeaderContainer extends React.Component {
     render() {
@@ -12,7 +13,7 @@ class HeaderContainer extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    ListData: state.HeaderComponent.ListData
+    ListData: getHeaderListDataSelector(state)
 })
 
 export default connect(mapStateToProps, {})(HeaderContainer)
