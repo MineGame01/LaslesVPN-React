@@ -1,4 +1,5 @@
-$color-default: #0B132A;
+$color-default-text: #0B132A;
+$color-default-origin: #F53855;
 
 .body {
   display: flex;
@@ -18,7 +19,7 @@ $color-default: #0B132A;
     }
   }
   &__name {
-    color: $color-default;
+    color: $color-default-text;
     margin-top: 30px;
     font-size: 18px;
     font-weight: 500;
@@ -42,7 +43,7 @@ $color-default: #0B132A;
     font-size: 25px;
     font-weight: 500;
     line-height: 30px;
-    color: $color-default;
+    color: $color-default-text;
     span {
       color: #4F5665;
       font-weight: 400;
@@ -53,15 +54,21 @@ $color-default: #0B132A;
     button {
       width: 100%;
       padding: 15px 40px;
-      border: 2px solid white;
+      border: 2px solid $color-default-origin;
+      border-radius: 50px;
       font-weight: 700;
+      font-size: 16px;
+      line-height: 18.96px;
+      color: $color-default-origin;
       &:hover {
-        border: 2px solid #F53855;
+        background-color: $color-default-origin;
+        border: 2px solid $color-default-origin;
+        color: white;
       }
     }
   }
 }
 
 .bodyActive {
-  border-color: #F53855;
+  border-color: $color-default-origin;
 }
