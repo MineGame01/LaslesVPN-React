@@ -1,0 +1,67 @@
+$color-default: #0B132A;
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 50px;
+  max-width: 330px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #DDDDDD;
+  &__up {
+    flex: 1 1 auto;
+  }
+  &__img {
+    img {
+      max-width: 144px;
+    }
+  }
+  &__name {
+    color: $color-default;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  &__list {
+    margin-top: 30px;
+    &__element {
+      display: flex;
+      img {
+        margin-right: 30px;
+      }
+    }
+    li {
+      color: #4F5665;
+      line-height: 40px;
+    }
+  }
+  &__price {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $color-default;
+    span {
+      color: #4F5665;
+      font-weight: 400;
+    }
+  }
+  &__button {
+    margin-top: 30px;
+    button {
+      width: 100%;
+      padding: 15px 40px;
+      border: 2px solid white;
+      font-weight: 700;
+      &:hover {
+        border: 2px solid #F53855;
+      }
+    }
+  }
+}
+
+.bodyActive {
+  border-color: #F53855;
+}

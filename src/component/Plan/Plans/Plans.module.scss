@@ -1,0 +1,23 @@
+.body {
+  margin-top: 200px;
+  &__text {
+    text-align: center;
+    &__title {
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 50px;
+      color: #0B132A;
+    }
+    &__text {
+      color: #4F5665;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  &__plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}
