@@ -3,6 +3,8 @@ import {createSlice} from "@reduxjs/toolkit";
 const PlanSlice = createSlice({
     name: 'Plan',
     initialState: {
+        title: 'Choose Your Plan',
+        text: 'Let\'s choose the package that is best for you and explore it happily and cheerfully.',
         plans: [
             {
                 id: 1,

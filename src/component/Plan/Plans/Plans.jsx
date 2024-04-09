@@ -3,11 +3,11 @@ import style from './Plans.module.scss'
 import Plan from "./Plan/Plan";
 
 const Plans = props => {
-    const {plans} = props
+    const {plans, titleAndText} = props
     return <div className={style.body}>
         <div className={style.body__text}>
-            <div className={style.body__text__title}>Choose Your Plan</div>
-            <div className={style.body__text__text}>Let's choose the package that is best for you and explore it happily and cheerfully.</div>
+            <div className={style.body__text__title}>{titleAndText.title}</div>
+            <div className={style.body__text__text}>{titleAndText.text}</div>
         </div>
         <div className={style.body__plans}>
             {plans.map(el => {
