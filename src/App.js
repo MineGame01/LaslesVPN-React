@@ -4,6 +4,7 @@ import FrontPage from "./component/FrontPage/FrontPage";
 import HeaderContainer from "./component/Header/HeaderContainer";
 import InfoService from "./component/InfoService/InfoService";
 import ServicesContainer from "./component/Services/ServicesContainer";
+import PlansContainer from "./component/Plan/PlansContainer";
 
 const App = props => {
     return (
@@ -12,6 +13,7 @@ const App = props => {
             <FrontPage />
             <InfoService />
             <ServicesContainer />
+            <PlansContainer />
         </div>
     )
 }

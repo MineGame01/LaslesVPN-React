@@ -7,3 +7,12 @@ export const getServicesAllSelector = state => {
 export const getHeaderListDataSelector = state => {
     return state.Header.ListData
 }
+
+//Plan
+export const getPlansDataSelector = state => {
+    return state.Plan.plans
+}
+
+export const getPlansTitleAndTextDataSelector = state => {
+    return {title: state.Plan.title, text: state.Plan.text}
+}
