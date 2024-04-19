@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LaslesVPN-React/static/css/main.07552f3d.css",
-    "main.js": "/LaslesVPN-React/static/js/main.147a7f70.js",
+    "main.css": "/LaslesVPN-React/static/css/main.b23ca438.css",
+    "main.js": "/LaslesVPN-React/static/js/main.170e29df.js",
     "static/js/453.9891713a.chunk.js": "/LaslesVPN-React/static/js/453.9891713a.chunk.js",
     "static/media/WorldMap_2120x1067.png": "/LaslesVPN-React/static/media/WorldMap_2120x1067.19586ad7b2e1250a46cc.png",
     "static/media/FronPageImg.png": "/LaslesVPN-React/static/media/FronPageImg.b38c423e5599b3c224a3.png",
@@ -17,12 +17,12 @@
     "static/media/checkMark_25x25.svg": "/LaslesVPN-React/static/media/checkMark_25x25.09b5d802dc90906613aae77c9d1250ec.svg",
     "index.html": "/LaslesVPN-React/index.html",
     "static/media/Arrow_25x25.svg": "/LaslesVPN-React/static/media/Arrow_25x25.3559d89f9967e0278a03aae6be47b3d3.svg",
-    "main.07552f3d.css.map": "/LaslesVPN-React/static/css/main.07552f3d.css.map",
-    "main.147a7f70.js.map": "/LaslesVPN-React/static/js/main.147a7f70.js.map",
+    "main.b23ca438.css.map": "/LaslesVPN-React/static/css/main.b23ca438.css.map",
+    "main.170e29df.js.map": "/LaslesVPN-React/static/js/main.170e29df.js.map",
     "453.9891713a.chunk.js.map": "/LaslesVPN-React/static/js/453.9891713a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07552f3d.css",
-    "static/js/main.147a7f70.js"
+    "static/css/main.b23ca438.css",
+    "static/js/main.170e29df.js"
   ]
 }
