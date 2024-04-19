@@ -21,3 +21,12 @@ export const getPlansTitleAndTextDataSelector = state => {
 export const getGlobalNetworkTitleAndTextDataSelector = state => {
     return {title: state.GlobalNetwork.title, text: state.GlobalNetwork.text}
 }
+
+//Reviews
+export const getReviewsTitleAndTextDataSelector = state => {
+    return {title: state.Reviews.title, text: state.Reviews.text}
+}
+
+export const getReviewsDataSelector = state => {
+    return state.Reviews.reviews || []
+}

@@ -1,0 +1,101 @@
+.body {
+  margin-top: 150px;
+  &__text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 555px;
+    &__title {
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 50px;
+      color: #0B132A;
+    }
+    &__text {
+      color: #4F5665;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  &__cardFlex {
+    overflow: hidden;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 0;
+    width: 100%;
+    &:hover {
+      overflow: auto;
+    }
+    &__card {
+      text-wrap: none;
+      color: #0B132A;
+      border: 2px solid #DDDDDD;
+      padding: 20px;
+      margin: 0 15px;
+      border-radius: 10px;
+      width: 400px;
+      &:hover {
+        border: 2px solid #F53838;
+        box-shadow: 0px 81px 214px -78px rgba(0,0,0,0.75);
+      }
+      &__infoFlex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 365px;
+        &__personeInfo {
+          display: flex;
+          align-items: center;
+          &__userImg {
+            margin-right: 20px;
+            img {
+              border-radius: 100%;
+              width: 50px;
+              height: 50px;
+            }
+          }
+          &__userFullName{
+            font-size: 18px;
+            font-weight: 500;
+          }
+          &__userLocation {
+            margin-top: 5px;
+            display: inline-block;
+            font-size: 14px;
+            color: #4F5665;
+          }
+        }
+        &__gradeFlex {
+          display: flex;
+          align-items: center;
+          &__titleRating {}
+          &__imgRating {
+            margin-left: 10px;
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+      }
+      &__title {
+        line-height: 30px;
+        margin-top: 10px;
+      }
+    }
+  }
+  &__buttons {
+    margin-top: 30px;
+    float: right;
+    button {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 100%;
+      padding: 15px;
+      &:last-of-type {
+        transform: rotate(180deg);
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import InfoService from "./component/InfoService/InfoService";
 import ServicesContainer from "./component/Services/ServicesContainer";
 import PlansContainer from "./component/Plan/PlansContainer";
 import GlobalNetworkContainer from "./component/GlobalNetwork/GlobalNetworkContainer";
+import ReviewsContainer from "./component/Reviews/ReviewsContainer";
 
 const App = props => {
     return (
@@ -16,6 +17,7 @@ const App = props => {
             <ServicesContainer />
             <PlansContainer />
             <GlobalNetworkContainer />
+            <ReviewsContainer />
         </div>
     )
 }

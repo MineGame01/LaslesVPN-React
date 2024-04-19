@@ -6,12 +6,12 @@ $color-default: #F53855;
   text-wrap: none;
   padding: 10px 40px;
   background: white;
-  border:  1px solid white;
+  border:  2px solid white;
   font-weight: 600;
   color: #0B132A;
   &:hover {
     border-radius: 50px;
-    border:  1px solid $color-default;
+    border:  2px solid $color-default;
     color: $color-default;
   }
 }
