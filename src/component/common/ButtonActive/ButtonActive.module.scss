@@ -5,12 +5,12 @@ $color-default: #F53855;
 .ButtonActive {
   background-color: $color-default;
   color: white;
-  padding: 20px 60px;
+  padding: 20px 75px;
   font-weight: 700;
   border-radius: 10px;
-  box-shadow: 0px 18px 19px -6px rgba(245, 56, 56, 0.46);
+  box-shadow: 0 18px 19px -6px rgba(245, 56, 56, 0.46);
   &:hover {
     background-color: darkslateblue;
-    box-shadow: 0px 18px 19px -6px rgb(72, 61, 139);
+    box-shadow: 0 18px 19px -6px rgb(72, 61, 139);
   }
 }

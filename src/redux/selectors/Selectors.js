@@ -30,3 +30,8 @@ export const getReviewsTitleAndTextDataSelector = state => {
 export const getReviewsDataSelector = state => {
     return state.Reviews.reviews || []
 }
+
+//SubscribeNow
+export const getSubscribeNowTitleAndTextDataSelector = state => {
+    return {title: state.SubscribeNow.title, text: state.SubscribeNow.text}
+}

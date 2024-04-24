@@ -4,6 +4,7 @@ import ServiceSlice from "./Slices/Service/ServiceSlice";
 import PlanSlice from "./Slices/Plan/PlanSlice";
 import GlobalNetworkSlice from "./Slices/GlobalNetwork/GlobalNetworkSlice";
 import ReviewsSlice from "./Slices/Reviews/ReviewsSlice";
+import SubscribeNowSlice from "./Slices/SubscribeNow/SubscribeNowSlice";
 
 export const store = configureStore({
     reducer: {
@@ -11,7 +12,8 @@ export const store = configureStore({
         Services: ServiceSlice,
         Plan: PlanSlice,
         GlobalNetwork: GlobalNetworkSlice,
-        Reviews: ReviewsSlice
+        Reviews: ReviewsSlice,
+        SubscribeNow: SubscribeNowSlice,
     }
 })
 window.store = store

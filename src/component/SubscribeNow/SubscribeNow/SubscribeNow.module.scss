@@ -1,0 +1,32 @@
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  padding: 55px;
+  box-shadow: 0 35px 75px -26px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+
+  &__left {
+    &__title {
+      max-width: 371px;
+      font-size: 35px;
+      line-height: 45px;
+      font-weight: 500;
+      text-align: left;
+      color: #0B132A;
+    }
+
+    &__text {
+      max-width: 410px;
+      margin-top: 8px;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: left;
+      color: #4F5665;
+    }
+  }
+
+  &__button {
+  }
+}
