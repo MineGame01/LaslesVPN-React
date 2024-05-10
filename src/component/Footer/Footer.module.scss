@@ -1,0 +1,69 @@
+$color-default: #0B132A;
+$color-default-text: #4F5665;
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  color: $color-default;
+
+  &__info {
+    &__text {
+      max-width: 340px;
+      margin-top: 10px;
+      color: $color-default-text;
+      line-height: 30px;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    &__socialNetwork {
+      display: flex;
+
+      &__el {
+        margin: 30px 13px;
+      }
+    }
+
+    &__data {
+      color: $color-default-text;
+      opacity: 50%;
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__navigate {
+    display: flex;
+    justify-content: space-between;
+
+    &__body {
+      margin: 0 50px;
+
+      &__title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+      }
+
+      &__list {
+        margin-top: 12px;
+        line-height: 40px;
+
+        li {
+          a {
+            color: $color-default-text;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

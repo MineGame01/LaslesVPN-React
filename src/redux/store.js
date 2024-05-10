@@ -5,6 +5,7 @@ import PlanSlice from "./Slices/Plan/PlanSlice";
 import GlobalNetworkSlice from "./Slices/GlobalNetwork/GlobalNetworkSlice";
 import ReviewsSlice from "./Slices/Reviews/ReviewsSlice";
 import SubscribeNowSlice from "./Slices/SubscribeNow/SubscribeNowSlice";
+import FooterSlice from "./Slices/Footer/FooterSlice";
 
 export const store = configureStore({
     reducer: {
@@ -14,5 +15,6 @@ export const store = configureStore({
         GlobalNetwork: GlobalNetworkSlice,
         Reviews: ReviewsSlice,
         SubscribeNow: SubscribeNowSlice,
+        Footer: FooterSlice,
     }
 });
