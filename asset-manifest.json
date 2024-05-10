@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/LaslesVPN-React/static/css/main.b140a448.css",
-    "main.js": "/LaslesVPN-React/static/js/main.510c0fd4.js",
+    "main.css": "/LaslesVPN-React/static/css/main.18e854ca.css",
+    "main.js": "/LaslesVPN-React/static/js/main.9e013d30.js",
     "static/js/453.9891713a.chunk.js": "/LaslesVPN-React/static/js/453.9891713a.chunk.js",
     "static/media/WorldMap_2120x1067.png": "/LaslesVPN-React/static/media/WorldMap_2120x1067.19586ad7b2e1250a46cc.png",
     "static/media/FronPageImg.png": "/LaslesVPN-React/static/media/FronPageImg.b38c423e5599b3c224a3.png",
     "static/media/Img.png": "/LaslesVPN-React/static/media/Img.328bf5008771178d725a.png",
+    "static/media/kimYoungJou_200x200.png": "/LaslesVPN-React/static/media/kimYoungJou_200x200.f41f8292f8af8934ffdc.png",
+    "static/media/yessicaChristy_200x200.png": "/LaslesVPN-React/static/media/yessicaChristy_200x200.067d19f6ad759d917094.png",
+    "static/media/viezhRobert_200x200.png": "/LaslesVPN-React/static/media/viezhRobert_200x200.f8529276583d0cfc9eee.png",
     "static/media/premiumPlan_145x165.png": "/LaslesVPN-React/static/media/premiumPlan_145x165.8fc94da3981ce547dbfa.png",
     "static/media/standartPlan_145x165.png": "/LaslesVPN-React/static/media/standartPlan_145x165.82a51e9f8165278c7106.png",
     "static/media/freePlan_145x165.png": "/LaslesVPN-React/static/media/freePlan_145x165.b5f6b5e959f5f71e4c60.png",
     "static/media/Amazon_380x121.png": "/LaslesVPN-React/static/media/Amazon_380x121.6262d345150fa86ffb6c.png",
     "static/media/logo.svg": "/LaslesVPN-React/static/media/logo.d9893e2504bde6456f37c75edd6f8b8b.svg",
+    "static/media/instagram_35x35.svg": "/LaslesVPN-React/static/media/instagram_35x35.4c488b711b4a932f46ef27af64afd505.svg",
     "static/media/ServerImg_55x56.svg": "/LaslesVPN-React/static/media/ServerImg_55x56.69876fac10aa1ebe7a98b148e867b88e.svg",
+    "static/media/twitterLogo_35x35.svg": "/LaslesVPN-React/static/media/twitterLogo_35x35.328baa2abb80ef7149288bc86309d8aa.svg",
     "static/media/LocationImg_56x56.svg": "/LaslesVPN-React/static/media/LocationImg_56x56.5a7b3d1a4fd36489e22de187d682ec0b.svg",
     "static/media/UserImg_55x56.svg": "/LaslesVPN-React/static/media/UserImg_55x56.d708dde9a79546c25042f654eb68bd09.svg",
     "static/media/checkMark_25x25.svg": "/LaslesVPN-React/static/media/checkMark_25x25.09b5d802dc90906613aae77c9d1250ec.svg",
     "index.html": "/LaslesVPN-React/index.html",
     "static/media/Arrow_25x25.svg": "/LaslesVPN-React/static/media/Arrow_25x25.3559d89f9967e0278a03aae6be47b3d3.svg",
-    "main.b140a448.css.map": "/LaslesVPN-React/static/css/main.b140a448.css.map",
-    "main.510c0fd4.js.map": "/LaslesVPN-React/static/js/main.510c0fd4.js.map",
+    "static/media/facebookLogo_35x35.svg": "/LaslesVPN-React/static/media/facebookLogo_35x35.1efbff30cdbd9f1cea2d3ef14c673982.svg",
+    "main.18e854ca.css.map": "/LaslesVPN-React/static/css/main.18e854ca.css.map",
+    "main.9e013d30.js.map": "/LaslesVPN-React/static/js/main.9e013d30.js.map",
     "453.9891713a.chunk.js.map": "/LaslesVPN-React/static/js/453.9891713a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b140a448.css",
-    "static/js/main.510c0fd4.js"
+    "static/css/main.18e854ca.css",
+    "static/js/main.9e013d30.js"
   ]
 }
