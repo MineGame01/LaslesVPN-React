@@ -4,6 +4,7 @@ import starImage from "./img/star_27x27.png";
 
 const CardReviews = props => {
     const {userFullName, userLocation, countRating, userImg, title} = props
+
     return <div className={style.body__cardFlex__card}>
         <div className={style.body__cardFlex__card__infoFlex}>
             <div className={style.body__cardFlex__card__infoFlex__personeInfo}>
@@ -20,8 +21,8 @@ const CardReviews = props => {
             </div>
             <div className={style.body__cardFlex__card__infoFlex__gradeFlex}>
                 <div className={style.body__cardFlex__card__infoFlex__gradeFlex__titleRating}>{countRating}</div>
-                <div className={style.body__cardFlex__card__infoFlex__gradeFlex__imgRating}><img src={starImage}
-                                                                                                 alt={'starImage'}/>
+                <div className={style.body__cardFlex__card__infoFlex__gradeFlex__imgRating}>
+                    <img src={starImage} alt={'starImage'}/>
                 </div>
             </div>
         </div>

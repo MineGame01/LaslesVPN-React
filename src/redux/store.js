@@ -15,5 +15,4 @@ export const store = configureStore({
         Reviews: ReviewsSlice,
         SubscribeNow: SubscribeNowSlice,
     }
-})
-window.store = store
+});
